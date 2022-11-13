@@ -30,6 +30,12 @@ const config = {
     locales: ['en', 'fr'],
   },
 
+  // Mermaid support (see https://docusaurus.io/fr/docs/next/markdown-features/diagrams)
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
