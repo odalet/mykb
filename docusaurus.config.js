@@ -1,6 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// Inspiration for this config:
+// * https://github.com/nikitavoloboev/knowledge/blob/main/docusaurus.config.js
+// * https://github.com/LayZeeDK/github-pages-docusaurus/blob/main/docusaurus.config.js
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -66,11 +70,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // See https://docusaurus.io/docs/api/themes/configuration
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+      image: 'img/violin.png',
       navbar: {
         title: 'My KB',
         logo: {
           alt: 'Violin',
-          src: 'img/violin.jpg',
+          src: 'img/violin.png',
         },
         items: [
           // {
