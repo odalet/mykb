@@ -89,7 +89,7 @@
 
 ### Avalonia
 
-> See [here](dev%40gui%40avalonia)
+> See [here](../dev/dev%40gui%40avalonia)
 
 ### UI Tricks
 
