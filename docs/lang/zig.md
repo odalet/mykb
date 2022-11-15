@@ -19,6 +19,7 @@
 
 * [What is Zig's Comptime?](https://kristoff.it/blog/what-is-zig-comptime/)
 * Using `comptime` for Generic programming
+  * [What Makes the Zig Programming Language Unique?](https://itnext.io/what-makes-zig-unique-1b98bfb95701)
   * [C++ vs Zig Template Based Programming](https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa)
   * [Here's another example of the coolness of Zig's comptime code execution](https://news.ycombinator.com/item?id=26375172)
 
