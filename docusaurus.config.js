@@ -104,7 +104,7 @@ const config = {
             "aria-label": "Stack Overflow",
           },
           {
-            href: 'https://github.com/odalet/',
+            href: 'https://github.com/odalet/mykb/',
             position: 'right',
             className: "header-github-link", 
             "aria-label": "GitHub",
