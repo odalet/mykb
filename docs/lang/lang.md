@@ -70,7 +70,6 @@
     > **C#-like**, but compiles to native
     >
     > Comes with a Graphical IDE (Windows-only for now):
-    > ![beef-ide]()
     >
     > ```csharp
     > using System;
@@ -104,6 +103,20 @@
     > * Kit is a procedural language, not object-oriented or functional; however, traits, boxes and abstracts can simulate object-oriented interfaces and polymorphism.
     > * Kit compiles to standard C, which then compiles to native libraries or executables.
     > * Memory management in Kit is manual (no automatic garbage collection), with some convenience features to make this easier.
+
+* [Ooc](http://ooc-lang.org/) - ooc is a small programming language with a clear and concise syntax that compiles to C99.
+
+    > ```c
+    > parse: func {
+    >    PropReader new(path, props)
+    >
+    >    // parse deps
+    >    requires := props get("Requires")
+    >    if (requires) {
+    >        deps addAll(requires split(',', false) map (|dep| dep trim(" \t")))
+    >    }
+    >}
+    > ```
 
 ## With VM / Interpreted / GC / Higher level
 
