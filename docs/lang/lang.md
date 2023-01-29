@@ -118,6 +118,47 @@
     >}
     > ```
 
+* [C3](https://c3-lang.org/)
+
+  > C3 is a system programming language based on C. It is an evolution of C enabling the same paradigms and retaining the same syntax as far as possible.
+  >
+  > C3 started as an extension of the [C2 language](http://www.c2lang.org/) by [Bas van den Berg](https://github.com/bvdberg). It has evolved significantly, not just in syntax but also in regard to error handling, macros, generics and strings.
+  >
+  > The C3 compiler can be found on github: <https://github.com/c3lang/c3c>.
+  >
+  > Example:
+  >
+  > ```c
+  > module hello_world;
+  > import std::io;
+  >
+  > fn int main(String[] argv) 
+  > {
+  >     io::println("Hello World!");
+  >     return 0;
+  > }
+  > ```
+  >
+  > Building c3 on Ubuntu 22.04:
+  >
+  > ```sh
+  > wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+  > sudo add-apt-repository -y "deb http://apt.llvm.org/jammy/ llvm-toolchain-jammy-15 main"
+  > sudo apt update
+  > apt list --upgradable
+  > sudo apt upgrade
+  > sudo apt-get install clang-15 zlib1g zlib1g-dev libllvm15 llvm-15 llvm-15-dev llvm-15-runtime   > liblld-15-dev liblld-15
+  > sudo apt-get install -y libpolly-17-dev
+  >
+  > git clone https://github.com/c3lang/c3c.git
+  > cd c3c
+  > mkdir build
+  > cd build
+  > cmake ..
+  > cmake --build .
+  > ./c3c compile ../resources/examples/hash.c3
+  > ```
+
 ## With VM / Interpreted / GC / Higher level
 
 * [Nim](https://nim-lang.org/) - statically typed compiled systems programming language
