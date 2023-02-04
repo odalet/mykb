@@ -197,6 +197,43 @@
     >     env.out.print("Hello, world!")
     > ```
 
+* [Cyber](https://cyberscript.dev/)
+
+  > Cyber is a new language for fast, efficient, and concurrent scripting.
+  >
+  > Written in **zig**: <https://github.com/fubark/cyber>
+  >
+  > Targets:
+  >
+  > * Linux x64 (Ubuntu, Fedora, Arch)
+  > * MacOS x64
+  > * MacOS arm64 (Manually tested.)
+  > * Windows x64
+  > * WASM Web
+  > * WASM WASI (soon)
+  >
+  > ```python
+  > import m 'math'
+  >
+  > worlds = ['World', '世界', 'दुनिया']
+  > worlds.append(m.random())
+  > for worlds each w:
+  >     print 'Hello, {w}!'
+  >
+  > func fib(n int) int:
+  >     coyield
+  >     if n < 2:
+  >         return n
+  >     return fib(n - 1) + fib(n - 2)
+  >
+  > count = 0    -- Counts iterations.
+  > fiber = coinit fib(30)
+  > while fiber.status() != #done:
+  >     res = coresume fiber
+  >     count += 1
+  > print '{res} {count}'
+  > ```
+
 ## Pet projects / Experiments / R&D
 
 * Microsoft Research
