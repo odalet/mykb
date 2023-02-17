@@ -25,3 +25,31 @@ The original framework from Borland: <https://en.wikipedia.org/wiki/Turbo_Vision
   * And a text editor based on it: <https://github.com/magiblot/turbo>
   
   ![turbo](https://user-images.githubusercontent.com/20713561/89552632-b7053380-d80c-11ea-92e0-a8c30f80cd49.png)
+
+## Security / Hacking
+
+* Flare-on Challenge 9 Solutions: <https://www.mandiant.com/resources/blog/flareon9-challenge-solutions>
+  * Challenge #8 is all about .NET injection: <https://www.mandiant.com/sites/default/files/2022-11/08-backdoor.pdf>
+    * Related post here: <https://daniao.ws/dumping-x86-assembly-of-csharp-dynamicmethod.html>
+* Harmony Lib: [A library for patching, replacing and decorating
+.NET and Mono methods during runtime.](https://github.com/pardeike/Harmony)
+
+## Misc
+
+### Wezterm
+
+A Rust-based Terminal Emulator:
+
+* Website: <https://wezfurlong.org/wezterm/index.html>
+* GitHub: <https://github.com/wez/wezterm/blob/main/color-types/src/lib.rs>
+
+![Wezterm](https://wezfurlong.org/wezterm/screenshots/two.png)
+
+However, more interstingly, its source code is a treasure trove:
+
+* Color Types: <https://github.com/wez/wezterm/blob/main/color-types/src/lib.rs>
+* A _binary tree with a Zipper based Cursor implementation_: <https://github.com/wez/wezterm/blob/main/bintree/src/lib.rs>
+  * <https://www.st.cs.uni-saarland.de//edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf>
+  * <https://donsbot.wordpress.com/2007/05/17/roll-your-own-window-manager-tracking-focus-with-a-zipper/>
+  * <https://stackoverflow.com/a/36168919/149111>
+* The website is generated with [mdBook](https://rust-lang.github.io/mdBook/index.html)

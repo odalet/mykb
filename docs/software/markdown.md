@@ -1,6 +1,7 @@
 # Markdown
 
 - [Markdown](#markdown)
+  - [Site Generators](#site-generators)
   - [Diagraming](#diagraming)
     - [Mermaid](#mermaid)
     - [Diagrams.net (previously Draw.io)](#diagramsnet-previously-drawio)
@@ -8,6 +9,16 @@
   - [Misc](#misc)
     - [Embed colors](#embed-colors)
     - [ToC](#toc)
+
+## Site Generators
+
+* [mdBook](https://rust-lang.github.io/mdBook/index.html). This seems to allow for many things, thanks to its huge ecosystem of plugins:
+  * **mdBook** is what's used to generate Rust Documentation and books
+  * Searchable HTML documentation
+  * MD to MD Generation
+  * Support for Mermaid and many more
+  * PDF output
+  * ...
 
 ## Diagraming
 
