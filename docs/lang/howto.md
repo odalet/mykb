@@ -41,6 +41,19 @@
 * Github: <https://github.com/terrajobst/minsk>
 * Youtube Series: <https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y>
 
+## C# + LLVM
+
+* LLVM's Kaleidoscope in C#: [Kaleidoscope: Implementing a Language with LLVM in CSharp](https://ice1000.org/llvm-cs/en/)
+* ClangSharp Nuget issue: <https://github.com/dotnet/ClangSharp/issues/118>
+
+### Gota7 + Asylum Code
+
+* Gota7 repos:
+  * [Invoke LLVM to run bitcode, for easy executable distribution](https://github.com/Gota7/LLVM-Invoker)
+  * Article: [How To Make A Programming Language](https://gota7.github.io/GotaGuide/ProgrammingLanguage/Index.html)
+* Asylum Language: <https://github.com/Asylum-Lang-Foundation>
+  * High-level wrapping of LLVM Sharp: [WARD-Sharp](https://github.com/Asylum-Lang-Foundation/WARD-Sharp)
+
 ----
 
 ## Articles, tutorials
