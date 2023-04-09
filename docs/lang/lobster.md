@@ -1,8 +1,8 @@
 # Lobster
 
-|                                                                                      |                                                                 |
-| ------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| <img src="https://strlen.com/img/lobster/lobster.svg" alt="LobsterLang" width="200"> | [THE LOBSTER PROGRAMMING LANGUAGE](https://strlen.com/lobster/) |
+|                                                                                        |                                                                 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| <img src="https://strlen.com/img/lobster/lobster.svg" alt="LobsterLang" width="200" /> | [THE LOBSTER PROGRAMMING LANGUAGE](https://strlen.com/lobster/) |
 
 ```python
 def find(xs, fun):
