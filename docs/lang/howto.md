@@ -59,3 +59,18 @@
 ## Articles, tutorials
 
 * [I wrote a programming language. Here’s how you can, too](https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/)
+* [What is a control-flow graph?](https://rustc-dev-guide.rust-lang.org/appendix/background.html#what-is-a-control-flow-graph)
+* **Pretty Laughable Language**
+  * <https://build-your-own.org/compiler/>
+  * <https://github.com/byo-books/pretty_laughable_lang>
+  * Implemented in python(in one unique file!), compiles down to x64 assembly that is either run from memory or saved to an Elf executable (although there must be issues as they only result in segmentation faults on my machine)
+  * My own fork (with a C# implementation): <https://github.com/odalet/pretty_laughable_lang>
+* **Pinecone**
+  * <https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/>
+  * <https://github.com/wmww/Pinecone>
+* [Writing Your Own Toy Compiler Using Flex, Bison and LLVM](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
+  * <https://github.com/lsegal/my_toy_compiler>
+* GccTiny frontend: <https://github.com/rofirrim/gcc-tiny/tree/master/gcc/tiny>
+* [Writing a Simple Programming Language from Scratch - Part 1](https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2)
+  * <https://github.com/evantypanski/ectlang>
+* [Writing your own programming language and compiler with Python](https://medium.com/@marcelogdeandrade/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df)
