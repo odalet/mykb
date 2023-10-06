@@ -13,6 +13,16 @@
 
 ## Retro / Legacy
 
+### Software Archives
+
+* <http://discmaster.textfiles.com/>
+* [Turbo C++ for Latest Edition of Windows like Windows 8, Windows 8.1, Windows 10](https://github.com/vineetchoudhary/turbocpp)
+* Internet Archive
+  * [Turbo C 2.01](https://archive.org/details/msdos_borland_turbo_c_2.01)
+* [Higher Intellect Software Archive](https://preterhuman.net/software/)
+* [Vetusware](https://vetusware.com/)
+* [Winworld](https://winworldpc.com/library/operating-systems)
+
 ### Turbo Vision implementations
 
 The original framework from Borland: <https://en.wikipedia.org/wiki/Turbo_Vision>
