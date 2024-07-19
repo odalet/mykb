@@ -7,23 +7,34 @@
 
 ## Tools
 
+### IDE
+
 * [IDE Support](https://github.com/elixir-lang/elixir/wiki/Code-Editor-Support)
-  * VSCode:
-    * <https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls>
-    * <https://marketplace.visualstudio.com/items?itemName=elixir-tools.elixir-tools>
-    * <https://marketplace.visualstudio.com/items?itemName=lexical-lsp.lexical>
-* Static analyzers
-  * [Credo](https://github.com/rrrene/credo)
-    * VSCode Extension: <https://marketplace.visualstudio.com/items?itemName=pantajoe.vscode-elixir-credo>
-  * Types Checking
-    * Documenting types: [Typespecs](https://hexdocs.pm/elixir/1.12/typespecs.html)
-    * [TypeCheck](https://github.com/Qqwy/elixir-type_check)
-    * [Gradient](https://github.com/esl/gradient)
-      * Based on Erlang's [Gradualizer](https://github.com/josefs/Gradualizer)
-    * **[Dialyzer](https://www.erlang.org/doc/apps/dialyzer/dialyzer.html)**
-      * Erlang-based, but wrapped by
-        * [Dialyxir: Mix tasks to simplify use of Dialyzer in Elixir projects](https://github.com/jeremyjh/dialyxir)
-      * [Adding Dialyzer without the Pain](https://fly.io/phoenix-files/adding-dialyzer-without-the-pain/)
+* VSCode:
+  * <https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls>
+  * <https://marketplace.visualstudio.com/items?itemName=elixir-tools.elixir-tools>
+  * <https://marketplace.visualstudio.com/items?itemName=lexical-lsp.lexical>
+
+### Static analyzers
+
+* [Credo](https://github.com/rrrene/credo)
+  * VSCode Extension: <https://marketplace.visualstudio.com/items?itemName=pantajoe.vscode-elixir-credo>
+* Types Checking
+  * Documenting types: [Typespecs](https://hexdocs.pm/elixir/1.12/typespecs.html)
+  * [TypeCheck](https://github.com/Qqwy/elixir-type_check)
+  * [Gradient](https://github.com/esl/gradient)
+    * Based on Erlang's [Gradualizer](https://github.com/josefs/Gradualizer)
+  * **[Dialyzer](https://www.erlang.org/doc/apps/dialyzer/dialyzer.html)**
+    * Erlang-based, but wrapped by
+      * [Dialyxir: Mix tasks to simplify use of Dialyzer in Elixir projects](https://github.com/jeremyjh/dialyxir)
+    * [Adding Dialyzer without the Pain](https://fly.io/phoenix-files/adding-dialyzer-without-the-pain/)
+
+### Debugging
+
+* [Three Ways to Debug Code in Elixir](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
+* [Debugging Phoenix and Elixir Applications in Visual Studio Code](https://medium.com/geekculture/debugging-phoenix-and-elixir-applications-in-visual-studio-code-5f1b63a6713b)
+* [Debugging Elixir Code: The Definitive Guide](https://curiosum.com/blog/debugging-elixir-code-the-definitive-guide)
+* [GitHub Gist: vscode_elixir_debugger_instructions.md](https://gist.github.com/Tomboyo/ef8db1ed6beb2a88a8d5fb1d7ff3d76b)
 
 ## Articles
 
