@@ -58,7 +58,7 @@ Test it by loading it inside Basic CNC Viewer or even CamBam+:
 
 From <http://www.hmilch.net/downloads/cli_format.html>:
 
-```CLI
+```clike
 $$HEADERSTART
 // This is a example for the use of the Layer Format //
 $$ASCII
@@ -91,7 +91,7 @@ $$GEOMETRYEND
 
 From <https://raw.githubusercontent.com/steptools/AdditiveNC/master/README.md>:
 
-```CLI
+```clike
 $$POWER/175.0
 $$SPEED/800.0
 $$FOCUS/4.0

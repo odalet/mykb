@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
 slug: /
-title: My KB
+title: Links
 ---
 
-# My KB
+# Links
 
-This is where I put interesting links
+Various interesting links I collected over time...
