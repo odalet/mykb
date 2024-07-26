@@ -44,3 +44,36 @@
   * [Strong arrows: a new approach to gradual typing](https://elixir-lang.org/blog/2023/09/20/strong-arrows-gradual-typing/)
   * [Elixir is dynamically and strongly typed](https://phoenixonrails.com/blog/elixir-is-dynamically-and-strongly-typed)
   * Discussion: [Typechecker for Elixir](https://elixirforum.com/t/typechecker-for-elixir/34474/3)
+* Macros
+  * [Implement a Basic block/yield with Elixir](https://medium.com/elixirlabs/implement-a-basic-block-yield-with-elixir-d00f313831f7):  
+
+    ```elixir
+    defmodule TimeFrame do
+      defmacro execute(name, units \\ :micro_seconds, do: yield) do
+        quote do
+          start = System.monotonic_time(unquote(units))
+          result = unquote(yield)
+          time_spent = System.monotonic_time(unquote(units)) - start
+          IO.puts("Executed #{unquote(name)} in #{time_spent} #{unquote(units)}")
+          result
+        end
+      end
+    end
+
+    # Usage
+    require TimeFrame
+    result1 = 
+      TimeFrame.execute "ti1" do
+        3 + 5 * 912312313123
+      end
+    # Executed ti1 in 5 micro_seconds
+    # 4561561565618
+    result2 = 
+      TimeFrame.execute "ti2", :seconds do
+        IO.puts("sth")
+        3 + 5
+      end
+    # sth
+    # Executed ti2 in 0 seconds
+    # 8
+    ```
