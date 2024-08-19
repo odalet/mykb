@@ -18,6 +18,7 @@ After a bit of research, it seems like the only two options worth exploring are 
 ## JetBrains IDE
 
 > See <https://github.com/KronicDeth/intellij-elixir/issues/3362#issuecomment-1732072343>
+> Copied and overwrote `OtpErlang.jar` from `C:\Program Files\Erlang OTP\lib\jinterface-1.14\priv` to `C:\Users\odalet\AppData\Roaming\JetBrains\IdeaIC2023.3\plugins\intellij-elixir\lib`.
 
 ## Posts in this series
 
