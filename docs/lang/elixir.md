@@ -38,12 +38,16 @@
 
 ## Articles
 
+* Language tutos
+  * [Elixir : Basics of structs](https://arunramgt.medium.com/elixir-basics-of-structs-e8587225a113)
 * Static/Strong Typing
   * [My Future with Elixir: set-theoretic types](https://elixir-lang.org/blog/2022/10/05/my-future-with-elixir-set-theoretic-types/)
     * [Programming with Union, Intersection, and Negation Types](https://www.irif.fr/~gc/papers/set-theoretic-types-2022.pdf) (PDF)
   * [Strong arrows: a new approach to gradual typing](https://elixir-lang.org/blog/2023/09/20/strong-arrows-gradual-typing/)
   * [Elixir is dynamically and strongly typed](https://phoenixonrails.com/blog/elixir-is-dynamically-and-strongly-typed)
   * Discussion: [Typechecker for Elixir](https://elixirforum.com/t/typechecker-for-elixir/34474/3)
+* Debugging
+  * [Debugging Elixir Code: The Definitive Guide](https://curiosum.com/blog/debugging-elixir-code-the-definitive-guide)
 * Macros
   * [Implement a Basic block/yield with Elixir](https://medium.com/elixirlabs/implement-a-basic-block-yield-with-elixir-d00f313831f7):  
 
